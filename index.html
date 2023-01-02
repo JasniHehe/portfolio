@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="#home" >About</a>
+        <a href="#skills">Skills</a>
+        <a href="#news">Education</a>
+        <a href="#contact">Experience</a>
+        <a href="#about">Project</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      
+      <div id="lead">
+        <div id="lead-content">
+            <h1>Jasni Husaini</h1>
+            <h2>Fresh Graduate</h2>
+            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <a href="C:\Users\jasni\Desktop\portfoliooo\RESUME JASNI HUSAINI BIN MOHAMAD JOHARI.pdf"" download="proposed_file_name">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+</body>
+</html>
